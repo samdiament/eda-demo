@@ -1,0 +1,8 @@
+---
+- name: Action Playbook
+  hosts: all
+
+  tasks:
+    - name: Say hi
+      ansible.builtin.debug:
+        msg: Hello!
